@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .Contenedor__mobile{
+
+    width: 300px;
+    height: 570px;
+    border-radius: 40px;
+    /* background-color: rgba(36,36,36); 
+    margin: 40px auto;
+    
+} */
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:  auto auto;
+}
+/* This was made with GlassGenerator.netlify.app */ 
+.Contenedor__mobile{
+    width: 300px;
+    height: 570px;
+    gap: 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(16px);
+    /* background-color: rgb(255,255,255); */
+background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);      margin: 40px 0; 
+}
+
+.Contenedor__mobile--2{
+    margin-left: 40px;
+}
+
+.Contenedor__mobile:before{
+    content: '';
+    width: 320px;
+    height: 585px;
+    position: absolute;
+background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);    bottom: -8px;
+    left: -.5rem;
+    border-radius: 40px;    
+
+}
+.box__up{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Camara{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    /* background-color: rgb(107 107 107); */
+    margin-left: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.Camara:before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  /* background-color: rgb(119 148 150); */
+  
+  position: absolute;
+}
+
+.Circle{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(107 107 107);
+    margin-left: 10px;
+    position: relative;
+    /* border: 2px solid white; */
+}
+
+/* .Circle:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(107 107 107);
+  left: 11px;
+} */
+
+.Audio__up{
+    display: block;
+    width: 60px;
+    height: 12px;
+    border-radius: 20px;
+  /* background-color: rgb(107 107 107); */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+}
+
+.screen{
+
+    border-radius: 25px;
+    backdrop-filter: blur(16px);
+background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    width: 290px; 
+    height: 460px; 
+    margin:0 .5rem;
+}
+
+.buttons__down{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__Home{
+    width: 70px;
+    height: 25px;
+    border: 2px solid white;
+ background-blend-mode: screen;
+    border-radius: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn__Home:hover,
+.btn__Home:focus{
+    border: 2px solid white;
+}

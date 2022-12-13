@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor Musica</title>
+    <link rel="stylesheet" href="./CSS/app.css">
+    <script src="https://kit.fontawesome.com/4c4dbee4c1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/movil.css">
+    <script src="https://kit.fontawesome.com/4c4dbee4c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="contenedor">
+       
+     <!-- <section class="Contenedor__mobile">
+        <div class="box__up">
+            <span class="Camara"></span>
+            <span class="Circle"></span>
+            <span class="Audio__up"></span>
+        </div>
+        <div class="screen">
+            <div class="toogle">
+                <i class="fa fa-bars" aria-hidden="true" class="bar"></i>
+                <ul class="PlayList" id="MenuMusic">
+                    <li class="PlayList__Item">
+                        <a href="#" class="Play PlayRock" id="Rock">Rock</a>
+                    </li>
+                    <li class="PlayList__Item">
+                        <a href="#" class="Play PlayRap" id="Rap">Rap</a>
+                    </li>
+                    <li class="PlayList__Item">
+                        <a href="#" class="Play PlayGreenA" id="GreenA"> Merengue</a>
+                    </li>
+                </ul>
+            </div>
+
+            <figure class="AlbumsImg" id="Contenedor__Letras">
+                <img src="./IMG/imagen1.jpg" alt="Linkin Park Faint" class="Item__Img" id="ImagenMusica">
+                <figcaption class="Descripcion__AlbumImg" >
+                    <h6 class="Titulo__Music" id="Titulo_Musica"> faint</h6>
+                    <p class="Descripcion__autor" id="Artista">Linkin Park
+                    </p>
+                </figcaption>
+            </figure>
+                <audio src="" id="audio"></audio>
+
+            <div class="Controles" id="Controles">
+                <a href="#" class="btn Control atras">
+                <i class="fas fa-backward"></i>
+                </a>
+                <a href="#" class="btn Control Play__Music">
+                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="btn Control Pausa">
+                <i class="fa fa-pause-circle" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="btn Control siguiente"><i class="fas fa-forward"></i></a>
+            </div>
+
+             <div class="progreso__music">
+                <progress id="file" max="100" value="0">  </progress>
+
+            </div> -->
+
+   <section class="Contenedor__mobile">
+        <div class="box__up">
+            <span class="Camara"></span>
+            <span class="Circle"></span>
+            <span class="Audio__up"></span>
+        </div>
+        <div class="screen">
+            <div class="cont-reprod" id="musica">
+    <audio id="audio" src="" ></audio>
+    
+    <div class="list_reprod">
+        <i class="fas fa-arrow-left"></i>
+        <h1>Music Play</h1>
+        <i class="fas fa-align-justify"></i>
+    </div>
+
+    <div class="ListadoMusica">
+    </div>
+   
+    <div class="img" id="parlante">
+        <img src="" id="logo" alt="">
+    </div>
+    <h2 id="TitleMusica"></h2>
+    <div class="cont-barras">
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+    </div>
+    <div class="BarraProgreso">
+        <div id="BarraPogre" class="B_Progreso"></div>
+       </div>
+   <div class="cont-botones">
+    <span id="atras" class="fas fa-backward"></span>
+    <div class="botones" id="cont_btn">
+        <span id="pause" class="btn far fa-pause-circle"></span>
+        <span id="play" class="btn far fa-play-circle"></span>
+    </div>
+    <span id="siguiente"  class="fas fa-forward"></span>
+   </div>
+</div>
+
+        
+        </div>
+        <div class="buttons__down">
+            <span class="btn__Home">
+            </span>
+        </div>
+    </section>
+
+
+
+   
+ </div>
+
+    <script src="./JS/app.js"></script>
+    <script src="./JS/prueba.js"></script>
+</body>
+</html>
