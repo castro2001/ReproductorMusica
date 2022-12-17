@@ -18,7 +18,7 @@ let logo=document.getElementById('logo')
 let arrImg=[
 './img/cansbero.jpg',
 './img/dorothy.jpg',
-'./img/cansbero_Ley.jpg',
+'./img/cansebero_Ley.jpg',
 './img/novocain.jpg',
 './img/epico.jpg',
 './img/get_wall.jpg',
