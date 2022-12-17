@@ -16,7 +16,7 @@ let canciones=[
 
 let logo=document.getElementById('logo')
 let arrImg=[
-'https://i.ytimg.com/an_webp/Q4YXeZPUFxc/mqdefault_6s.webp?du=3000&sqp=COG745wG&rs=AOn4CLAoDgw918_fem67cHHJKCMUqgO_Hg',
+'./img/cansbero.jpg',
 'https://i.ytimg.com/an_webp/cg2P3MH5WYs/mqdefault_6s.webp?du=3000&sqp=CMe645wG&rs=AOn4CLA-612TQlf4QaeFvL6XSeDEv1s2rQ',
 'https://i.ytimg.com/an_webp/tQ43q3RKlOE/mqdefault_6s.webp?du=3000&sqp=COGk45wG&rs=AOn4CLAA0BhWITRpgrptALXmlv6tHQErZw',
 'https://i.ytimg.com/an_webp/XfgW-jMK5_M/mqdefault_6s.webp?du=3000&sqp=CKGN45wG&rs=AOn4CLBg8-D_Vwm5UdZUVkRyxc_iw_gKNg',
