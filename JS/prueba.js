@@ -17,12 +17,12 @@ let canciones=[
 let logo=document.getElementById('logo')
 let arrImg=[
 './img/cansbero.jpg',
-'https://i.ytimg.com/an_webp/cg2P3MH5WYs/mqdefault_6s.webp?du=3000&sqp=CMe645wG&rs=AOn4CLA-612TQlf4QaeFvL6XSeDEv1s2rQ',
-'https://i.ytimg.com/an_webp/tQ43q3RKlOE/mqdefault_6s.webp?du=3000&sqp=COGk45wG&rs=AOn4CLAA0BhWITRpgrptALXmlv6tHQErZw',
-'https://i.ytimg.com/an_webp/XfgW-jMK5_M/mqdefault_6s.webp?du=3000&sqp=CKGN45wG&rs=AOn4CLBg8-D_Vwm5UdZUVkRyxc_iw_gKNg',
-'https://i.ytimg.com/an_webp/FEbBEAzqqtg/mqdefault_6s.webp?du=3000&sqp=CIC745wG&rs=AOn4CLCWdDQSXdXm7BTD1RKofoQ6mazUOg',
-'https://i.ytimg.com/an_webp/iS8sqgBgzG8/mqdefault_6s.webp?du=3000&sqp=CKeg45wG&rs=AOn4CLBsCvZeXatF3mEFuNWGFIdorOnPag',
-'https://i.ytimg.com/an_webp/PI4lCKCLlUU/mqdefault_6s.webp?du=3000&sqp=CKTB45wG&rs=AOn4CLCKw7sJmkaCt2pa47Mh0vLW_i55qw'
+'./img/dorothy.jpg',
+'./img/cansbero_Ley.jpg',
+'./img/novocain.jpg',
+'./img/epico.jpg',
+'./img/get_wall.jpg',
+'./img/drow__quise.jpg'
 ]
 
 let contimg=0
