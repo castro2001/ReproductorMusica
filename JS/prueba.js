@@ -44,7 +44,7 @@ let parlante=document.getElementById('parlante')
 let BarraProgreso=document.getElementById('BarraPogre')
 let music=audio
 let contador=0
-title.textContent=canciones[contador]
+    title.textContent=letras[contador]
 music.setAttribute("src",canciones[0])
 
 function playMusic(){ 
@@ -101,7 +101,6 @@ atras.addEventListener('click',()=>{
     contador--
     contimg--
     if(contador<0 || contimg<0){
-        contador=canciones.length-1
         contimg=arrImg.length-1
     }
     playMusic()
